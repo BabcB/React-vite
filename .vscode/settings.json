@@ -1,3 +1,4 @@
 {
-  "gitlens.showWelcomeOnInstall": false
+  "gitlens.showWelcomeOnInstall": false,
+  "editor.defaultFormatter": "biomejs.biome"
 }

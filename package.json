@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "rsbuild dev",
     "build": "tsc -b && rsbuild build",
-    "lint": "eslint .",
-    "preview": "rsbuild preview"
+    "preview": "rsbuild preview",
+    "lint": "biome check"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -18,12 +18,8 @@
     "@types/react-dom": "^18.3.0",
     "@rsbuild/core": "^1.1.0",
     "@rsbuild/plugin-react": "^1.0.7",
-    "@eslint/js": "^9.9.0",
-    "eslint": "^9.9.0",
-    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
-    "eslint-plugin-react-refresh": "^0.4.9",
+    "@biomejs/biome": "^1.9.4",
     "globals": "^15.9.0",
-    "typescript": "^5.5.3",
-    "typescript-eslint": "^8.0.1"
+    "typescript": "^5.5.3"
   }
 }
